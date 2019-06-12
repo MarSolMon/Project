@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Project</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">SerTec</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <div class="navbar-nav offset-md-5 justify-content-end">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="products.html" class="nav-item nav-link">| Products</a>
+                <a href="about.html" class="nav-item nav-link">| About Us</a>
+                <a href="#" class="nav-item nav-link">| Contact Us</a>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"><br>
+                <h2 class="text-center">Featured Product</h2>
+                <h4>This is an awesome tagline.</h4>
+                <br>
+                <br>
+                <button type="button" class="btn btn-primary btn-lg">Buy Now!</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg">Free Trial</button>
+                <br><br>
+                <a href="#" style="text-decoration: underline;">Read more about the Product</a>
+            </div>
+            <div class="col-md-8">
+                <div class="col-md-6 offset-md-1 d-none d-sm-block"><br>
+                    <img src="img/img1.jpg" width="650px" height="350px" alt="java">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr style="width: 88%;">
+    <div class="container">
+        <div class="row features">
+            <div class="col-md-8 text-center">
+                <i class="fas fa-address-book"></i>
+                <h2>The Company</h2>
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea facere aliquam, quisquam aspernatur dicta
+                    beatae illum praesentium mollitia at, voluptate quis quas! Exercitationem quis, facere, quod dolore
+                    architecto velit qui nam veniam nostrum saepe harum error enim omnis aperiam quia eum accusamus sit
+                    eaque. Eaque, quod vero. Placeat, consequuntur dicta.</p>
+            </div>
+            <div class="col-md-4">
+                <br>
+                <button type="button" class="btn btn-outline-secondary btn-lg" style="width: 100%; height: 120px;">Our Motto</button> 
+            </div>
+        </div>
+    </div><br>
+    <hr style="width: 88%;">
+    <div class="container">
+        <h3>Testimonials</h3>
+            <div id="mycarusel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarusel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarusel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="container">
+                        <div class="carousel-item active">
+                            <div class="carusel-caption d-none d-md-block">
+                                <blockquote class="blockquote text-justify d-block">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nemo autem magni perspiciatis. Provident consequatur dolor placeat ex nemo minima molestiae perferendis impedit rem perspiciatis soluta, commodi quo quos facere?</p>
+                                    <footer class="blockquote-footer">
+                                        <cite title="Source Tittle">-Source</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carusel-caption d-none d-md-block">
+                                <blockquote class="blockquote text-justify d-block">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nemo autem magni perspiciatis. Provident consequatur dolor placeat ex nemo minima molestiae perferendis impedit rem perspiciatis soluta, commodi quo quos facere?</p>
+                                    <footer class="blockquote-footer">
+                                        <cite title="Source Tittle">-Source</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features">
+                    <a class="carousel-control-prev" href="#mycarusel" role="button" data-slide="prev">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarusel" role="button" data-slide="next">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+    </div>
+    <hr style="width: 88%;">
+    <div class="container">
+        <p class="text-center">Wanna get in touch? Email us at office@awesomeproduct.com.</p>
+    </div>
+    <hr style="width: 88%;">
+    <br>
+    <div class="footer">
+        <div class="container">
+            <ul class="text-center">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+            </ul>
+            <p class="text-center">(c) Copyright 2013 Product Name. All rights reserved.</p>
+        </div>
+    </div>
+    
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
+

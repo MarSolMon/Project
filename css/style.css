@@ -1,0 +1,29 @@
+hr {
+    width: 100%;
+}
+
+.row .text{
+    font-size: 28px;
+    color: dimgrey;
+}
+.features .fas{
+    font-size: 35px;
+    color: blueviolet;
+
+}
+.footer .fab {
+    font-size: 30px;
+}
+
+.btn-primary{
+    width: 200px;
+}
+
+.btn-primary a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.carousel-inner .container{
+    width: 80%;
+}
